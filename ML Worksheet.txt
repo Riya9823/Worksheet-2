@@ -3,3 +3,31 @@
 3. C
 4. A
 5. B
+6. A, D
+7. B, C
+8. A, C
+9. D
+10. The adjusted R2 will penalize you for adding independent variables that do not fit the model. The adjusted R2 will compensate for this by that penalizing you for those 
+    extra variables.
+    
+11. Ridge Regression: It is used to solve multi collinearity in OLS regression models through the incorporation of shrinkage parameter.The assumptions for the model is same as
+    OLS model like linearity, constant variance and independence and normality not need to be assumed.
+
+    Lasso Regression: It is more similar to Ridge Regression but perform automatic variable selection. It allows regression coefficient to be zero whereas Ridge does not.
+    
+12. Variance inflation factor (VIF) is a measure of the amount of multicollinearity in a set of multiple regression variables.
+    The Variance Inflation Factor (VIF) is 1/Tolerance, it is always greater than or equal to 1. There is no formal VIF value for determining presence of multicollinearity.
+    Values of VIF that exceed 10 are often regarded as indicating multicollinearity, but in weaker models values above 2.5 may be a cause for concern. 
+     
+13. Scaling or Standardization: It is a step of Data Pre Processing which is applied to independent variables or features of data. It basically helps to normalise the data 
+    within a particular range. Sometimes, it also helps in speeding up the calculations in an algorithm.
+    
+14. “Goodness of Fit” of a linear regression model attempts to get at the perhaps surprisingly tricky issue of how well a model fits a given set of data, or how well it will
+    predict a future set of observations.These (R Squared, Adjusted R Squared, F Statistics , RMSE / MSE / MAE ) are some metrics which you can use to evaluate your regression
+    model.   
+    
+15. Sensitivity = 0.4545
+    Specificity = 0.1666
+    Precision = 0.9523
+    Recall = 0.4545
+    Accuracy= 0.42
